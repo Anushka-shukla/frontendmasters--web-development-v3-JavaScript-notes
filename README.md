@@ -1,2 +1,2 @@
-# frontendmasters--web-development-v3-JavaScript-notes-
+# Frontendmasters: web-development-v3(JavaScript)
 JavaScript notes
