@@ -67,3 +67,4 @@ const number = 5.3;
 const roundedNumber = Math.round(number);
 console.log(number);
 ```
+- Read more on function [here](https://javascript.info/function-basics)

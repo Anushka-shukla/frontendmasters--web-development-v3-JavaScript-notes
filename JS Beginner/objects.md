@@ -36,7 +36,43 @@ Window {window: Window, self: Window, document: document, name: '', location: L
 
 ## Arrays
 
-- 
+- Objects are un-ordered collections of data using keys and values. Arrays, in contrast, are ordered collections of data. If you put something in an array, it has an order. 
+- Eg. of an array: 
+```
+const daysOfTheWeek = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+];
+console.log(daysOfTheWeek);
+console.log(daysOfTheWeek[0]);
+console.log(daysOfTheWeek[1]);
+```
+### Iterating through an array
+
+```
+const cities = [
+  "Seattle",
+  "San Francisco",
+  "Salt Lake City",
+  "Amsterdam",
+  "Hong Kong",
+];
+
+// method 1
+for (let i = 0; i < cities.length; i++) {
+  console.log(cities[i]);
+}
+
+// method 2
+cities.forEach(function (city) {
+  console.log(city);
+});
+```
 
 
 
