@@ -7,7 +7,7 @@ ctrl + shift + v md prev
 2. [Control Flow & Loops](./ControlFlow.md)
 3. [Functions, Scopes and Builtins](./functions.md)
 4. [Objects, Context and Arrays](./objects.md)
-5. [DOM](./Dom.md)
+5. [DOM, Events & Listeners](./Dom.md)
 6.
 7.
 8.
