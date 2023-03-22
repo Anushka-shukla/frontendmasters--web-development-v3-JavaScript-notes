@@ -8,8 +8,12 @@ ctrl + shift + v md prev
 3. [Functions, Scopes and Builtins](./functions.md)
 4. [Objects, Context and Arrays](./objects.md)
 5. [DOM, Events & Listeners](./Dom.md)
-6.
+6. 
 7.
 8.
 9.
 10.
+
+Need to understand more:
+-  strict amd non-strict is left
+-  Do the calculator proj on a weekend

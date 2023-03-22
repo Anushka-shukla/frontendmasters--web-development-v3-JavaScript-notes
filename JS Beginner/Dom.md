@@ -65,7 +65,23 @@ b) **this** – is the “current” element, the one that has a currently runni
 
 #### Capturing
 
-- 
+- There’s another phase of event processing called “capturing”. It is rarely used in real code, but sometimes can be useful. (top down approach)
+
+- The standard DOM Events describes 3 phases of event propagation:
+
+a) Capturing phase – the event goes down to the element.<br>
+b) Target phase – the event reached the target element.<br>
+c) Bubbling phase – the event bubbles up from the element.<br>
+
+- The event first goes through the ancestors chain down to the element (capturing phase), then it reaches the target and triggers there (target phase), and then it goes up (bubbling phase), calling handlers on its way.
 
 ### Event Delegation
-- 
+- It’s often used to add the same handling for many similar elements, but not only for that.
+
+- The algorithm:
+
+a) Put a single handler on the container.<br>
+b) In the handler – check the source element event.target.<br>
+c) If the event happened inside an element that interests us, then handle the event.<br>
+- [Reference to learn more deeper](https://www.youtube.com/watch?v=pKzf80F3O0U)
+- [Read more here](https://javascript.info/event-delegation)
